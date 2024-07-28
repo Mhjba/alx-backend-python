@@ -24,8 +24,9 @@ $ python -m unittest path/to/test_file.py
 
 ## Required Files
 
-`utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py)))
-`utils.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+- `utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py)))
+- `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
+- `fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 <details>
   <summary>Click to show/hide file contents</summary>
 
