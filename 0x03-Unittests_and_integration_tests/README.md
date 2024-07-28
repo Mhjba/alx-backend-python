@@ -99,7 +99,7 @@ class GithubOrgClient:
 - `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
   <details>
   <summary>Click to show/hide file contents</summary>
- ```
+```
 #!/usr/bin/env python3
 """A github org client
 """
