@@ -1,5 +1,4 @@
-Curriculum <br>
-**Short Specializations** <br>
+
 # 0x03. Unittests and Integration Tests
 `UnitTests` `Back-end` `Integration tests`
 **Concepts:**
@@ -25,7 +24,7 @@ $ python -m unittest path/to/test_file.py
 
 ## Required Files
 
-`main.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+`utils.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 `utils.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 <details>
   <summary>Click to show/hide file contents</summary>
