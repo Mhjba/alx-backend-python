@@ -34,6 +34,9 @@ class TestGithubOrgClient(unittest.TestCase):
         self.assertEqual(tests._public_repos_url, output["repos_url"])
 
     @patch("client.get_json")
+    @patch("client.GithubOrgClient._public_repos_url",
+        new_callable=PropertyMock,
+    )
     def test_public_repos(self, mock_public_repos_url, mock_get_json) -> None:
         """Tests the `public_repos` method."""
         test = GithubOrgClient("test")
@@ -124,3 +127,6 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     def tearDownClass(cls) -> None:
         """Removes the class fixtures after running all tests."""
         cls.get_patcher.stop()
+
+
+
